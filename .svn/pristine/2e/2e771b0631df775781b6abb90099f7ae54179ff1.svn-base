@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#b0000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/longClickMenu"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:background="@drawable/corners_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/long_click_bookname"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center_vertical"
+            android:text="bookname"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#FFF" />
+
+        <TextView
+            android:id="@+id/long_click_link"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center_vertical"
+            android:text="创建快捷方式" 
+            android:textSize="20sp" 
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#FFF" />
+
+        <TextView
+            android:id="@+id/long_click_delete"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center_vertical"
+            android:text="删除" 
+            android:textSize="20sp" 
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">wida阅读器</string>
+    <string name="go_back">返回</string>
+    <string name="my_bookshelf">我的书架</string>
+    <string name="add_book">本地图书</string>
+    <string name="main_home">首页</string>
+    <string name="main_search">找书</string>
+    <string name="main_bookshelf">书架</string>
+    <string name="main_setting">设置</string>
+    <string name="menu_setting">设置</string>
+    <string name="more">更多</string>
+    <!-- start 文件选择器  -->
+    <string name="empty_hint">文件夹为空</string>
+    <string name="sdcard_unmonted_hint">请先挂载SD卡</string>
+    <string name="open_file_error_format">文件格式不正确</string>
+    <string name="inset_book_failed">导入图书失败</string>
+    
+    <string name="book_catalogue">目录</string>
+    <string name="bookmark">书签</string>
+</resources>

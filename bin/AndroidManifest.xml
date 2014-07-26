@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wida.reader"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="8" />
+    <permission android:name="android.permission.INTERNET"></permission>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="wida.reader.activity.MainTabActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- android:launchMode="singleTask" -->
+        <activity
+            android:name="wida.reader.activity.BookshelfActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="wida.reader.activity.HomeActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="wida.reader.activity.SearchActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="wida.reader.activity.SettingActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity android:name="wida.reader.activity.FileChooserActivity" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="wida.reader.activity.BookReaderActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity android:name="wida.reader.activity.FileScanActivity" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity android:name="wida.reader.activity.BookCatalogueTabActivity" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity android:name="wida.reader.activity.BookCatalogueActivity" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity android:name="wida.reader.activity.BookmarkActivity" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity android:name="wida.reader.activity.ReaderSettingActivity" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

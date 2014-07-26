@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+    android:id="@+id/menu_relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:layout_alignParentLeft="true"
+    android:background="#dfffffff"
+    >
+
+    <ImageView
+        android:id="@+id/menu_goback"
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/menu_goback" />
+
+    <GridView
+        android:id="@+id/gvmenu"
+        android:layout_width="100dip"
+        android:layout_height="45dip"
+        android:layout_alignParentRight="true"
+        android:listSelector="@drawable/menu_selectitem"
+        android:numColumns="2"
+        android:stretchMode="columnWidth" >
+    </GridView>
+</RelativeLayout>
+    <GridView
+        android:id="@+id/gvmenu2"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#dfffffff"
+        android:listSelector="@drawable/menu_selectitem"
+        android:numColumns="4"
+        android:stretchMode="columnWidth" >
+    </GridView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gvmenu2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/menu_relativeLayout" />
+
+</RelativeLayout>
